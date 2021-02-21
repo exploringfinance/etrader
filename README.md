@@ -59,7 +59,7 @@ site](https://developer.etrade.com/getting-started). To use the API, the
 user will need to manually log into their ETRADE account at least once a
 day; however, this can be automated using `RSelenium` and `Docker` as
 shown in this
-[article](https://exploringfinance.io/posts/2020-11-21-the-ultimate-dollar-cost-averaging-strategy/).
+[article](https://exploringfinance.github.io/posts/2020-11-21-the-ultimate-dollar-cost-averaging-strategy/).
 
 Once authorization tokens have been obtained, authentication can be
 achieved in three simple steps: setting credentials, generating a login
