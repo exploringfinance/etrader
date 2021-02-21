@@ -1,0 +1,30 @@
+Package: etrader
+Title: 'ETRADE' API Interface for R
+Version: 0.1.2
+Author: Exploring Finance [aut, cre]
+Authors@R:
+    person(given = "Exploring",
+           family = "Finance",
+           role = c("aut", "cre"),
+           email = "exploringfinance1@gmail.com")
+Maintainer: Exploring Finance <exploringfinance1@gmail.com>
+URL: https://exploringfinance.github.io/etrader/
+BugReports: https://github.com/exploringfinance/etrader/issues
+Description: Use R to interface with the 'ETRADE' API <https://developer.etrade.com/home>.
+    Functions include authentication, trading, quote requests, account information, and option 
+    chains. A user will need an ETRADE brokerage account and 'ETRADE' API approval. See README 
+    for authentication process and examples.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magrittr,
+    httr,
+    urltools,
+    dplyr,
+    rvest,
+    purrr,
+    jsonlite
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
