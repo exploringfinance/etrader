@@ -1,6 +1,10 @@
-# etrader 0.1.3
+# etrader 0.1.4
 
 ## Release Notes and News
+
+### etrader 0.1.4 12/15/2022
+
+Fixed an issue related to authentication headers.
 
 ### etrader 0.1.3 02/21/2021
 

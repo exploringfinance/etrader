@@ -1,6 +1,6 @@
 Package: etrader
 Title: 'ETRADE' API Interface for R
-Version: 0.1.3
+Version: 0.1.4
 Author: Anthony Balentine [aut, cre]
 Authors@R:
     person(given = "Anthony",

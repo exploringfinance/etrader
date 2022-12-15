@@ -49,20 +49,8 @@ etrd_get_url = function(etrade_url,
 # Turn signature into a text string for header
 hlp_etrd_auth_headers = function(signature) {
 
-  # collapse into a single authorization string for header
-  # sign_string = paste0('OAuth\n ',paste0(names(unlist(signature)),'="',unlist(signature),collapse = '",'))
-  . <- vals <- cols <- NULL
-  list_to_df = data.frame('vals' = unlist(signature)) %>%
-    dplyr::mutate(cols = row.names(.),
-                  # Convert oauth items into URL encoded text
-                  vals = ifelse(cols %in% c('oauth_signature','oauth_nonce','oauth_token'),
-                                urltools::url_encode(vals),as.character(vals)),
-                  string = paste0(cols,'="',vals,'"'))
-
-  # collapse into a single authorization string for header
-  sign_string = paste0('OAuth\n ',paste0(list_to_df$string,collapse = ','))
-
-  httr::add_headers('Authorization' = sign_string)
+  ### Use httr header signature
+  httr::oauth_header(signature)
 
 }
 

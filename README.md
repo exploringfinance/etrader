@@ -7,7 +7,7 @@
 
 ![CRAN
 Version](https://www.r-pkg.org/badges/version/etrader?color=green) ![Dev
-Version](https://img.shields.io/badge/github-0.1.3-blue.svg)
+Version](https://img.shields.io/badge/github-0.1.4-blue.svg)
 ![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/etrader)
 <!-- badges: end -->
 
