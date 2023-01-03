@@ -1,10 +1,15 @@
-# etrader 0.1.4
+# etrader 0.1.5
 
 ## Release Notes and News
+
+### etrader 0.1.5 01/03/2023
+
+Improved object test using methods::is()
 
 ### etrader 0.1.4 12/15/2022
 
 Fixed an issue related to authentication headers.
+
 
 ### etrader 0.1.3 02/21/2021
 
